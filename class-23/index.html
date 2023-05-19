@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>balance chack</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="login-box">
+    <h2> Plasse login your account !</h2>
+    <input id="email" class="type-email" type="text" placeholder="Type your email"> <br>
+    <input id="password" class="type-email" type="password" placeholder="Type your password"> <br>
+    <button id="login" class="button">Login</button>
+  
+    
+   </section>
+   <script>
+    document.getElementById('login').addEventListener('click',function(){
+   const emailFeld = document.getElementById('email');
+    const useremail = emailFeld.value;
+
+    const passwordFeld = document.getElementById('password');
+    const userpassword = passwordFeld.value;
+    if (useremail== 'admin@admin.com' && userpassword== 123456) {
+      window.location.href = "desbord1.html";
+    } else{
+      window.location.href = "wrong-password.html";
+    }
+})
+</script>
+
+   
+
+
+
+   <link  href="desbord1.html">
+    <script src="dom.js"></script>
+</body>
+</html>

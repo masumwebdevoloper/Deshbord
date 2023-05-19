@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-box{
+    width: 80%; 
+    height: 400px;
+    background-color: rgb(192, 242, 192);
+    padding: 20px;
+    line-height:2;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.wrong-password{
+    width: 70%; 
+    height: 200px;
+    background-color: rgb(190, 107, 88);
+    padding: 20px;
+    line-height:2;
+    margin: auto;
+    margin-top: 50px;
+}
+.login-box.from{
+    text-align: center;
+}
+h2{
+    padding: 20px;
+    font-size: 50px;
+}
+.type-email{
+    padding: 10px;
+    width: 80%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: none;
+}
+.button{
+    padding: 7px;
+    background-color: rgb(134, 230, 180);
+    width: 150px;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+
+}
+/* dasbord */
+
+
+
+
+.welcompage{
+   padding: 20px;
+   font-size: 40px;
+}
+.balance-chack{
+    background-color: aquamarine;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+.balance-deposit{
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+}
+.deposit{
+    background-color: blueviolet;
+    width: 30%;
+    padding:15px ;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+
+}
+.withdrow{
+    background-color: rgb(240, 221, 93);
+    width: 30%;
+    padding:15px ;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+.balance{
+    background-color: rgb(72, 228, 61);
+    width: 30%;
+    padding:15px ;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+/* deposit & withdrow */
+
+.input-ammount{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+.ammount-deposit{
+    background-color: rgb(73, 73, 72);
+    padding: 15px;
+    width: 47%;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+.ammount-withdrow{
+    background-color: green;
+    padding: 15px;
+    width: 47%;
+    margin: 5px;
+    border-radius: 10px;
+}
+#totalDeposit{
+   
+   padding: 10px;
+   width: 100%;
+   border-radius: 12px;
+   font-size: 18px;
+   border: none;
+   width: 80%;
+    
+}
+#totalWithdrow{
+   
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 18px;
+    border: none;
+    width: 80%;
+     
+ }
+ .dheding{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+ }
